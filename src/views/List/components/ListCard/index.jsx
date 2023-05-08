@@ -7,7 +7,7 @@ const ListCard = ({ data }) => {
     <div className={styles.listCard}>
       <div className={styles.upscore}>
         <span className={styles.scrt}>Score</span>
-        <span className={styles.scr}>8.04</span>
+        <span className={styles.scr}>{data.score}</span>
       </div>
       <div className={styles.pic}>
         <div className={styles.type}>{data.type}</div>

@@ -1,7 +1,7 @@
 import MainLayout from '@components/MainLayout';
-import List from '@views/List';
+import Bookmark from '@views/Bookmark';
 
-const index = () => <List />;
+const index = () => <Bookmark />;
 
 index.getLayout = function getLayout(page) {
   return <MainLayout>{page}</MainLayout>;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Link from 'next/link';
 
-import { Collapse, Container, Nav, NavItem, NavLink, Navbar, NavbarToggler } from 'reactstrap';
+import { Collapse, Container, Nav, NavItem, Navbar, NavbarToggler } from 'reactstrap';
 
 import styles from './styles.module.scss';
 
@@ -18,11 +18,6 @@ const MainLayout = ({ children }) => {
           <Nav className="me-auto" navbar>
             <NavItem>
               <Link href="/" className="nav-link">
-                Home
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link href="/list" className="nav-link">
                 List Anime
               </Link>
             </NavItem>

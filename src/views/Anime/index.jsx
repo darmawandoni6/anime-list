@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import Rating from '@components/Rating';
 import animeAction from '@reducers/Anime/anime.action';
 import homeAction from '@reducers/home/home.action';
-import Recomended from '@views/Home/components/Recomended';
+import Recomended from '@views/List/components/Recomended';
 import { useDispatch, useSelector } from 'react-redux';
 import { Alert, Button } from 'reactstrap';
 import varibale from 'src/constants/varibale';
