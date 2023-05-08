@@ -1,0 +1,4 @@
+export default {
+  LOADING: 'LOADING_ANIME',
+  FETCH_ANIME_BY_ID: 'FETCH_POPULER_ANIME',
+};
